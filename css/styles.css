@@ -1,0 +1,104 @@
+.padding{
+    padding: 40px;
+}
+
+.logo-home{
+    margin-top: 30px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #00CB75;
+    border-color: #00CB75;
+}
+.btn-home{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.ma-top-40{
+    margin-top: 40px;
+}
+.ma-top-30{
+    margin-top: 30px;
+}
+.ma-top-20{
+    margin-top: 20px;
+}
+.ma-top-10{
+    margin-top: 10px;
+}
+.font-georgia{
+    font-family: Georgia;
+}
+.txt-center{
+    text-align: center;
+}
+.div-center{
+    margin:auto;
+}
+
+.img-center{
+    margin:auto;
+}
+
+.display-in{
+    display:inline
+}
+
+.float-r{
+    float: right;
+}
+
+.ma-left-70{
+    margin-left: 70px;
+}
+.ma-left-60{
+    margin-left: 60px;
+}
+.ma-left-50{
+    margin-left: 50px;
+}
+.ma-left-40{
+    margin-left: 40px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .img-placeholder{
+        width: 80%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .img-placeholder{
+        width: 80%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .img-placeholder{
+        width: 80%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .col-lg-4{
+        margin: auto;
+    } 
+    .img-placeholder{
+        width: 60%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   .col-lg-4{
+       margin: auto;
+   }
+   .img-placeholder{
+       width: 60%;
+   }
+}
